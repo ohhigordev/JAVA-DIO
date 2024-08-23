@@ -14,31 +14,39 @@ public class Ex007 {
 
         System.out.println("Digite o segundo número: ");
         int n2 = sc.nextInt();
-        System.out.print('\n');
+        sc.nextLine(); // Consumindo uma linha de codigo apos a sobra.
 
-        static void calculadora(){
+        
         // Definindo as operações:
         System.out.println("Digite um sinal da operção ['+', '-', '*', '/']: ");
         String op = sc.nextLine();
 
-            if(op == "+") {
-                int soma = n1 + n2;
-                System.out.println("A soma dos números é: " + soma);
-            }
-            else if(op == "-") {
-                int subtracao = n1 - n2;
-                System.out.println("A subtração dos números é: " + subtracao);
-            }
-            else if(op == "*") {
-                int multi = n1 * n2;
-                System.out.println("A multiplicação dos números é: " + multi);
-            }
-            else if( op == "/") {
-                double div = n1 / n2;
+        if(op.equals("+")) {
+            int soma = n1 + n2;
+            System.out.println("A soma dos números é: " + soma);
+        }
+        else if(op.equals("-")) {
+            int subtracao = n1 - n2;
+            System.out.println("A subtração dos números é: " + subtracao);
+        }
+        else if(op.equals("*")) {
+            int multi = n1 * n2;
+            System.out.println("A multiplicação dos números é: " + multi);
+        }
+        else if( op.equals("/")) {
+            if (n2 != 0){ // Verificando a divisão por zero.
+                double div = (double) n1/n2;
                 System.out.println("A divisão dos números é: " + div);
+            }
+            else{
+                System.out.println("Erro: Divisão não permitida!");
             }
         }
 
+        else{
+            System.out.println("Operação invalida!");
+        }
+            
         sc.close();
         
     }
