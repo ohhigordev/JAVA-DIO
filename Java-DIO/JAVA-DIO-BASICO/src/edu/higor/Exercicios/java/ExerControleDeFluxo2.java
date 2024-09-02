@@ -4,7 +4,7 @@ public class ExerControleDeFluxo2 {
     @SuppressWarnings("unused")
     public static void main(String[] args) {
         int dia = 1;
-
+        
         switch(dia = 4) {
             case 6:
                 System.out.println("Fim de semana");
