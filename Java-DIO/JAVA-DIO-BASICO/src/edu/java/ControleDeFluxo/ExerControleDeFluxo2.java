@@ -1,4 +1,4 @@
-package edu.higor.Exercicios.java;
+package edu.java.ControleDeFluxo;
 
 public class ExerControleDeFluxo2 {
     @SuppressWarnings("unused")

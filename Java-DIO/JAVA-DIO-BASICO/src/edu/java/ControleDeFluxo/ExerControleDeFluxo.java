@@ -1,4 +1,4 @@
-package edu.higor.Exercicios.java;
+package edu.java.ControleDeFluxo;
 import java.util.Scanner;
 
 public class ExerControleDeFluxo {

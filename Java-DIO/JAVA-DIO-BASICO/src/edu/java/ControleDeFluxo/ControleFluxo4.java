@@ -1,4 +1,4 @@
-package edu.higor.Exercicios.java;
+package edu.java.ControleDeFluxo;
 
 public class ControleFluxo4 {
     public static void main(String[] args) {
