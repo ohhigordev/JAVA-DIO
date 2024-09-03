@@ -1,6 +1,6 @@
 package edu.java.ControleDeFluxo;
 
-public class ControleFluxo4 {
+public class ControleDeFluxo4 {
     public static void main(String[] args) {
         // While precisa de um valor booleano.
         // O while so acontece enquanto ele for verdade.
