@@ -8,7 +8,7 @@ public class Ex008 {
         int factorial = 1;
 
         for(int i = 1; i <= num; i++) {
-            factorial *= 1;
+            factorial *= i;
         }
 
         System.out.println("O fatorial do número" + num + " é: " + factorial);
