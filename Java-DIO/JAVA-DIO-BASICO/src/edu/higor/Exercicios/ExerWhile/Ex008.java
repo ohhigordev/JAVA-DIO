@@ -17,6 +17,8 @@ public class Ex008 {
             }
             // Imprimindo o fatorial do número:
             System.out.println("O fatorial do número " + num + " é " + factorial);
+
+            in.close();
         }
     }
 }
